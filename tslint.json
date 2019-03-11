@@ -6,6 +6,16 @@
         180
       ]
     },
+    "no-empty": false,
+    "object-literal-sort-keys": false,
+    "array-type": [
+      true,
+      "generic"
+    ],
+    "member-access": [
+      true,
+      "no-public"
+    ],
     "trailing-comma": [
       false,
       {

@@ -28,7 +28,7 @@ const BASE_URL = 'https://www.paris.cl/';
 
     $('#navigation > ul > li').each((_index, _category) => {
 
-        let categoryName = $(_category).find('a').attr('data-category');
+        let categoryName = $(_category).find('a').attr('data-for-scraping-category');
 
         let categoryHref = $(_category).find('a').attr('href');
 
@@ -141,7 +141,7 @@ const BASE_URL = 'https://www.paris.cl/';
 
     const json = JSON.stringify(categories);
 
-    fs.writeFileSync('./data.json', json, 'utf-8');
+    fs.writeFileSync('./data-for-scraping.json', json, 'utf-8');
 
     debugger;
 

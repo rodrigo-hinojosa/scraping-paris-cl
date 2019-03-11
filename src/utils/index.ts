@@ -1,5 +1,5 @@
-import * as Json2csvParser from 'json2csv';
 import * as fs from 'fs';
+import * as Json2csvParser from 'json2csv';
 
 export class Utils {
 
@@ -15,7 +15,7 @@ export class Utils {
     }
 
     static getTimeStamp(): string {
-        const d = new Date;
+        const d = new Date();
 
         return ('00' + (d.getMonth() + 1)).slice(-2) +
             ('00' + d.getDate()).slice(-2) + d.getFullYear() +
@@ -24,29 +24,27 @@ export class Utils {
             ('00' + d.getSeconds()).slice(-2);
     }
 
-    static writeJsonFile(productsData: any): void {
+    static writeJsonFile(data: any): void {
 
         this.createExportFolder();
 
-        const jsonFile = JSON.stringify(productsData);
+        const jsonFile = JSON.stringify(data);
 
         fs.writeFileSync(`./dist/export/${this.getTimeStamp()}-data.json`, jsonFile, 'utf-8');
 
     }
 
-    static writeCsvFile(productsData: any): void {
+    static writeCsvFile(data: any): void {
 
         this.createExportFolder();
 
-        const csvFile = Json2csvParser.parse(productsData);
+        const csvFile = Json2csvParser.parse(data);
 
         fs.writeFileSync(`./dist/export/${this.getTimeStamp()}-data.csv`, csvFile, 'utf-8');
 
     }
 
-    static createExportFolder() {
-
-        console.log('createExportFolder');
+    private static createExportFolder() {
 
         const dir = './dist/export';
 
