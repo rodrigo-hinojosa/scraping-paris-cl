@@ -1,9 +1,7 @@
 import * as cheerio from 'cheerio';
 import * as request from 'request-promise';
 
-import {Category} from '../models/Category';
-import {Product} from '../models/Product';
-import {SubCategory} from '../models/SubCategory';
+import {Category, Product, SubCategory} from '../models/';
 
 import {categoryList} from '../data-for-scraping/categoryList';
 import {Utils} from '../utils';
@@ -12,10 +10,10 @@ const BASE_URL: string = 'https://www.paris.cl';
 
 export const getParisSiteData = {
 
-    initialize: async (): Promise<void> => {
-        const scrapingData = await getParisSiteData.getCategories(categoryList);
+    initialize: async (): Promise<Array<Category>> => {
+        return await getParisSiteData.getCategories(categoryList);
 
-        Utils.writeJsonFile(scrapingData);
+        // Utils.writeJsonFile(scrapingData);
     },
     getCategories: async (categories: Array<Category>): Promise<Array<Category>> => {
 

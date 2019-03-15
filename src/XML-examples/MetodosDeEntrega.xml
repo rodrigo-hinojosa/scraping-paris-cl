@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shipping xmlns="http://www.demandware.com/xml/impex/shipping/2007-03-31">
+    <shipping-method method-id="1" default="false">
+        <display-name xml:lang="x-default">Despacho normal</display-name>
+        <display-name xml:lang="es-CL">Despacho normal</display-name>
+        <online-flag>false</online-flag>
+        <tax-class-id>standard</tax-class-id>
+        <price-table>
+            <amount order-value="0.01">0</amount>
+        </price-table>
+        <excluded-products>
+            <included-products>
+                <condition-group>
+                    <category-condition catalog-id="paris-storefront-catalog" operator="is equal">
+                        <category-id>lineablanca</category-id>
+                    </category-condition>
+                </condition-group>
+            </included-products>
+        </excluded-products>
+        <custom-attributes>
+            <custom-attribute attribute-id="deliveryOption">00</custom-attribute>
+            <custom-attribute attribute-id="fallbackOfScheduledShipping">true</custom-attribute>
+            <custom-attribute attribute-id="isPreSale">false</custom-attribute>
+            <custom-attribute attribute-id="methodType">HOME</custom-attribute>
+            <custom-attribute attribute-id="noviosShipping">false</custom-attribute>
+            <custom-attribute attribute-id="omsShippingID">Paris.cl</custom-attribute>
+            <custom-attribute attribute-id="renderingTemplate1">checkout/shipping/inc/address/rendering1.isml</custom-attribute>
+            <custom-attribute attribute-id="scheduledShipping">false</custom-attribute>
+            <custom-attribute attribute-id="storePickupEnabled">false</custom-attribute>
+            <custom-attribute attribute-id="summaryRenderingTemplate">checkout/shipping/inc/address/miniaddress.isml</custom-attribute>
+        </custom-attributes>
+    </shipping-method>
+
+    <shipping-method method-id="2" default="true">
+        <display-name xml:lang="x-default">Despacho programado</display-name>
+        <display-name xml:lang="es-CL">Despacho programado</display-name>
+        <online-flag>true</online-flag>
+        <tax-class-id>standard</tax-class-id>
+        <price-table>
+            <amount order-value="0.01">0</amount>
+        </price-table>
+        <custom-attributes>
+            <custom-attribute attribute-id="deliveryOption">00</custom-attribute>
+            <custom-attribute attribute-id="fallbackOfScheduledShipping">false</custom-attribute>
+            <custom-attribute attribute-id="isPreSale">false</custom-attribute>
+            <custom-attribute attribute-id="methodType">HOME</custom-attribute>
+            <custom-attribute attribute-id="noviosShipping">false</custom-attribute>
+            <custom-attribute attribute-id="omsShippingID">Paris.cl</custom-attribute>
+            <custom-attribute attribute-id="renderingTemplate1">checkout/shipping/inc/address/rendering1.isml</custom-attribute>
+            <custom-attribute attribute-id="renderingTemplate2">checkout/shipping/inc/address/rendering2.isml</custom-attribute>
+            <custom-attribute attribute-id="scheduledShipping">true</custom-attribute>
+            <custom-attribute attribute-id="storePickupEnabled">false</custom-attribute>
+            <custom-attribute attribute-id="summaryRenderingTemplate">checkout/shipping/inc/address/miniaddress.isml</custom-attribute>
+        </custom-attributes>
+    </shipping-method>
+
+    <shipping-method method-id="3" default="false">
+        <display-name xml:lang="x-default">Novios</display-name>
+        <display-name xml:lang="es">Novios Spanish</display-name>
+        <display-name xml:lang="es-CL">Novios Spanish CL</display-name>
+        <description xml:lang="x-default">Novios</description>
+        <online-flag>true</online-flag>
+        <tax-class-id>standard</tax-class-id>
+        <price-table>
+            <amount order-value="0.01">0</amount>
+        </price-table>
+        <custom-attributes>
+            <custom-attribute attribute-id="deliveryOption">00</custom-attribute>
+            <custom-attribute attribute-id="fallbackOfScheduledShipping">false</custom-attribute>
+            <custom-attribute attribute-id="isPreSale">false</custom-attribute>
+            <custom-attribute attribute-id="methodType">NOVIOS</custom-attribute>
+            <custom-attribute attribute-id="noviosShipping">true</custom-attribute>
+            <custom-attribute attribute-id="omsShippingID">Paris.cl</custom-attribute>
+            <custom-attribute attribute-id="renderingTemplate1">checkout/shipping/inc/novios/rendering1.isml</custom-attribute>
+            <custom-attribute attribute-id="scheduledShipping">false</custom-attribute>
+            <custom-attribute attribute-id="storePickupEnabled">false</custom-attribute>
+            <custom-attribute attribute-id="summaryRenderingTemplate">checkout/shipping/inc/address/miniaddress.isml</custom-attribute>
+        </custom-attributes>
+    </shipping-method>
+
+    <shipping-method method-id="4" default="false">
+        <display-name xml:lang="x-default">Collect from Store</display-name>
+        <display-name xml:lang="es-CL">Retiro en tienda</display-name>
+        <description xml:lang="x-default">Se enviarán instrucciones por e-mail</description>
+        <online-flag>false</online-flag>
+        <tax-class-id>standard</tax-class-id>
+        <price-table>
+            <amount order-value="0.01">0</amount>
+        </price-table>
+        <custom-attributes>
+            <custom-attribute attribute-id="deliveryOption">02</custom-attribute>
+            <custom-attribute attribute-id="fallbackOfScheduledShipping">false</custom-attribute>
+            <custom-attribute attribute-id="isPreSale">false</custom-attribute>
+            <custom-attribute attribute-id="methodType">CLICK_COLLECT</custom-attribute>
+            <custom-attribute attribute-id="noviosShipping">false</custom-attribute>
+            <custom-attribute attribute-id="omsShippingID">PickUP</custom-attribute>
+            <custom-attribute attribute-id="renderingTemplate1">checkout/shipping/inc/store/rendering1.isml</custom-attribute>
+            <custom-attribute attribute-id="scheduledShipping">false</custom-attribute>
+            <custom-attribute attribute-id="storePickupEnabled">false</custom-attribute>
+            <custom-attribute attribute-id="summaryRenderingTemplate">checkout/shipping/inc/store/miniaddress.isml</custom-attribute>
+        </custom-attributes>
+    </shipping-method>
+
+    <shipping-method method-id="5" default="false">
+        <online-flag>true</online-flag>
+        <tax-class-id>standard</tax-class-id>
+        <price-table>
+            <amount order-value="0.01">0</amount>
+        </price-table>
+        <custom-attributes>
+            <custom-attribute attribute-id="deliveryOption">00</custom-attribute>
+            <custom-attribute attribute-id="fallbackOfScheduledShipping">false</custom-attribute>
+            <custom-attribute attribute-id="isPreSale">true</custom-attribute>
+            <custom-attribute attribute-id="methodType">HOME</custom-attribute>
+            <custom-attribute attribute-id="noviosShipping">false</custom-attribute>
+            <custom-attribute attribute-id="omsShippingID">Preventa</custom-attribute>
+            <custom-attribute attribute-id="renderingTemplate1">checkout/shipping/inc/address/rendering1.isml</custom-attribute>
+            <custom-attribute attribute-id="scheduledShipping">false</custom-attribute>
+            <custom-attribute attribute-id="storePickupEnabled">false</custom-attribute>
+            <custom-attribute attribute-id="summaryRenderingTemplate">checkout/shipping/inc/address/miniaddress.isml</custom-attribute>
+        </custom-attributes>
+    </shipping-method>
+
+    <shipping-method method-id="6" default="false">
+        <display-name xml:lang="x-default">PreSale Collect from Store</display-name>
+        <display-name xml:lang="es-CL">Retiro en tienda</display-name>
+        <description xml:lang="x-default">Preventa</description>
+        <description xml:lang="es-CL">Preventa</description>
+        <online-flag>true</online-flag>
+        <tax-class-id>standard</tax-class-id>
+        <price-table>
+            <amount order-value="0.01">0</amount>
+        </price-table>
+        <custom-attributes>
+            <custom-attribute attribute-id="deliveryOption">00</custom-attribute>
+            <custom-attribute attribute-id="isPreSale">true</custom-attribute>
+            <custom-attribute attribute-id="methodType">CLICK_COLLECT</custom-attribute>
+            <custom-attribute attribute-id="noviosShipping">false</custom-attribute>
+            <custom-attribute attribute-id="omsShippingID">PreSalePickUP</custom-attribute>
+            <custom-attribute attribute-id="renderingTemplate1">checkout/shipping/inc/store/rendering1.isml</custom-attribute>
+            <custom-attribute attribute-id="scheduledShipping">false</custom-attribute>
+            <custom-attribute attribute-id="storePickupEnabled">false</custom-attribute>
+            <custom-attribute attribute-id="summaryRenderingTemplate">checkout/shipping/inc/store/miniaddress.isml</custom-attribute>
+        </custom-attributes>
+    </shipping-method>
+
+    <shipping-method method-id="9" default="false">
+        <display-name xml:lang="x-default">Retiro Programado</display-name>
+        <display-name xml:lang="es-CL">Retiro Programado</display-name>
+        <online-flag>true</online-flag>
+        <tax-class-id>standard</tax-class-id>
+        <price-table>
+            <amount order-value="0.01">0</amount>
+        </price-table>
+        <custom-attributes>
+            <custom-attribute attribute-id="deliveryOption">02</custom-attribute>
+            <custom-attribute attribute-id="fallbackOfScheduledShipping">false</custom-attribute>
+            <custom-attribute attribute-id="isPreSale">false</custom-attribute>
+            <custom-attribute attribute-id="methodType">CLICK_COLLECT</custom-attribute>
+            <custom-attribute attribute-id="noviosShipping">false</custom-attribute>
+            <custom-attribute attribute-id="omsShippingID">Pickup</custom-attribute>
+            <custom-attribute attribute-id="renderingTemplate1">checkout/shipping/inc/store/rendering1.isml</custom-attribute>
+            <custom-attribute attribute-id="scheduledShipping">true</custom-attribute>
+            <custom-attribute attribute-id="storePickupEnabled">false</custom-attribute>
+            <custom-attribute attribute-id="summaryRenderingTemplate">checkout/shipping/inc/store/miniaddress.isml</custom-attribute>
+        </custom-attributes>
+    </shipping-method>
+
+</shipping>

@@ -34,6 +34,16 @@ export class Utils {
 
     }
 
+    static writeXmlFile(data: any): void {
+
+        this.createExportFolder();
+
+        // const jsonFile = JSON.stringify(data);
+
+        fs.writeFileSync(`./dist/export/${this.getTimeStamp()}-data.xml`, data, 'utf-8');
+
+    }
+
     static writeCsvFile(data: any): void {
 
         this.createExportFolder();

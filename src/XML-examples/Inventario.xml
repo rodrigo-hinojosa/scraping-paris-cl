@@ -1,0 +1,1325 @@
+<inventory xmlns="http://www.demandware.com/xml/impex/inventory/2007-05-31">
+    <inventory-list>
+        <header list-id="DC127">
+            <default-instock>false</default-instock>
+            <use-bundle-inventory-only>false</use-bundle-inventory-only>
+            <on-order>false</on-order>
+        </header>
+        <records>
+            <record product-id="813359999">
+                <allocation>4</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="957423999">
+                <allocation>12</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="548852999">
+                <allocation>9</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="229460999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="817554999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="169408999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="501873999">
+                <allocation>5</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="305146999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="510736001">
+                <allocation>18</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="637775999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="858386999">
+                <allocation>19</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="206722999">
+                <allocation>28</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="727801999">
+                <allocation>1</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="838494999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="948517999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="457254999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="498764999">
+                <allocation>4</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="578485999">
+                <allocation>16</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="204859999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="416225999">
+                <allocation>9</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="772947999">
+                <allocation>8</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="671130999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="938968999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="919268999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="436515999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="412101999">
+                <allocation>5</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="717292999">
+                <allocation>10</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="234395999">
+                <allocation>4</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="282692999">
+                <allocation>9</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="886437999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="255734999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="858177999">
+                <allocation>1</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="851587999">
+                <allocation>15</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="310295999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="972608999">
+                <allocation>11</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="607236999">
+                <allocation>17</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="966764999">
+                <allocation>4</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="268674999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="234396999">
+                <allocation>2</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="216635999">
+                <allocation>13</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="216598999">
+                <allocation>19</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="384850999">
+                <allocation>11</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="509917001">
+                <allocation>13</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="824130999">
+                <allocation>24</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="839612999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="180129999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="282690999">
+                <allocation>2</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="106573006">
+                <allocation>1</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="966762999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="591746999">
+                <allocation>12</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="548877999">
+                <allocation>14</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="142269999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="886430999">
+                <allocation>5</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="490536999">
+                <allocation>10</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="938966999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="203240999">
+                <allocation>6</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="772828999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="997050999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="216609999">
+                <allocation>22</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="578461999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="312426999">
+                <allocation>25</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="772950999">
+                <allocation>5</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="803286999">
+                <allocation>12</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="404008999">
+                <allocation>9</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="119963999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="664504999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="727764999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="762187999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="335162999">
+                <allocation>5</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="917039999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="321489999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="919328999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="193130004">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="873436999">
+                <allocation>5</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="669975999">
+                <allocation>1</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="919270999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="969117999">
+                <allocation>20</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="381769999">
+                <allocation>2</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="283315999">
+                <allocation>4</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="972628999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="772842999">
+                <allocation>3</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="593316999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="306351999">
+                <allocation>8</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="972606999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="109934999">
+                <allocation>10</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="879493999">
+                <allocation>4</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="939946999">
+                <allocation>13</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="997182999">
+                <allocation>31</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="468620999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="200560999">
+                <allocation>4</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="209575001">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="983523999">
+                <allocation>18</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="852594999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="885915999">
+                <allocation>1</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="329983999">
+                <allocation>17</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="795207999">
+                <allocation>4</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="635396999">
+                <allocation>16</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="229362999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="193130003">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="515793999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="938967999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="135415999">
+                <allocation>14</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="620926999">
+                <allocation>2</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="383857999">
+                <allocation>9</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="466514999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="216646999">
+                <allocation>4</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="987478999">
+                <allocation>2</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="672366999">
+                <allocation>18</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="931740999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="352650999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="717293999">
+                <allocation>3</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="228422999">
+                <allocation>20</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="531486999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="893743999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="481840999">
+                <allocation>29</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="772855999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="304539999">
+                <allocation>1</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="973257999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="969455999">
+                <allocation>12</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="179995999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="266166999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="120470999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="839002999">
+                <allocation>12</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="228678999">
+                <allocation>9</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="817730999">
+                <allocation>5</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="522882001">
+                <allocation>17</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="375565999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="635395999">
+                <allocation>1</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="590172999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="671129999">
+                <allocation>2</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="416260999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="999890999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="578603999">
+                <allocation>5</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="947692999">
+                <allocation>18</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="201690999">
+                <allocation>4</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="593243999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="593291999">
+                <allocation>1</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="780690999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="435017999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="522671001">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="171927999">
+                <allocation>4</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="929754999">
+                <allocation>1</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="886314999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="366952999">
+                <allocation>7</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="304515999">
+                <allocation>1</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="671646999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="126758999">
+                <allocation>1</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="986562999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="972630999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="312397999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="472782999">
+                <allocation>1</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="717294999">
+                <allocation>16</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="534555999">
+                <allocation>5</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="317218999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="517873999">
+                <allocation>9</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="770023999">
+                <allocation>7</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="546640999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="786925999">
+                <allocation>1</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="434056999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="322489999">
+                <allocation>16</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="950919999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="321719999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="400643999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="932784999">
+                <allocation>5</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="400644999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="284743011">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="717299999">
+                <allocation>3</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="383872999">
+                <allocation>9</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="671122999">
+                <allocation>4</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="266159999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="534553999">
+                <allocation>4</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="812979999">
+                <allocation>6</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="416340999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="879494999">
+                <allocation>4</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="620577999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="334020999">
+                <allocation>9</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="471212999">
+                <allocation>6</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="844775999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="214093999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="546282999">
+                <allocation>1</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="135396999">
+                <allocation>17</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="683658999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="145055999">
+                <allocation>1</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="292781999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="147659999">
+                <allocation>5</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="314094999">
+                <allocation>5</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="464804999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="637779999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="787686999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="234402999">
+                <allocation>1</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="620929999">
+                <allocation>4</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="379006999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="347305999">
+                <allocation>2</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="181046999">
+                <allocation>2</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="972620999">
+                <allocation>2</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="236162999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="672367999">
+                <allocation>9</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="821685999">
+                <allocation>1</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="948490999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="979551999">
+                <allocation>2</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="126755999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="402977999">
+                <allocation>2</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="129733999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="688598999">
+                <allocation>6</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="822628999">
+                <allocation>1</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="338592999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="578679999">
+                <allocation>3</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="131415999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="201629999">
+                <allocation>7</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="121329999">
+                <allocation>5</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="932825999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="548866999">
+                <allocation>3</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="865598999">
+                <allocation>7</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="522805001">
+                <allocation>3</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="334010999">
+                <allocation>9</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="411449999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="460463999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="821110999">
+                <allocation>1</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+            <record product-id="105621999">
+                <allocation>0</allocation>
+                <allocation-timestamp>2019-01-08T05:02:27.00Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+            </record>
+        </records>
+    </inventory-list>
+</inventory>

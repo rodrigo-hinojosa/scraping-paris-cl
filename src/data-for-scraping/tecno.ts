@@ -54,4 +54,5 @@ export const tecno: Category = new Category(
             products: null,
             url: 'https://www.paris.cl/tecnologia/accesorios-videojuegos/'
         }
-    ]);
+    ]
+);
