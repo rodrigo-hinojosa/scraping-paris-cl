@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog xmlns="http://www.demandware.com/xml/impex/catalog/2006-10-31" catalog-id="cencosud-master-catalog">
+
+    <product product-id="997050999">
+        <unit>1</unit>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">LED 50" Samsung Smart TV Ultra HD 4K 50NU7100</display-name>
+        <short-description xml:lang="x-default">LED 50" Samsung UN50NU7100GX Smart TV Ultra HD 4K</short-description>
+        <store-force-price-flag>false</store-force-price-flag>
+        <store-non-inventory-flag>false</store-non-inventory-flag>
+        <store-non-revenue-flag>false</store-non-revenue-flag>
+        <store-non-discountable-flag>false</store-non-discountable-flag>
+        <online-flag>true</online-flag>
+        <available-flag>true</available-flag>
+        <searchable-flag>true</searchable-flag>
+        <brand>SAMSUNG</brand>
+        <page-attributes>
+            <page-title xml:lang="x-default">LED 50" Samsung UN50NU7100GX Smart TV Ultra HD 4K | Paris.cl</page-title>
+            <page-description xml:lang="x-default">Disfruta tu serie favorita con la calidad y tecnología de los
+                televisores que en Paris.cl tenemos para ti. Compra online de manera rápida y segura.
+            </page-description>
+        </page-attributes>
+        <classification-category catalog-id="paris-storefront-catalog">root</classification-category>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+</catalog>
