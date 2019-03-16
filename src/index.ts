@@ -7,19 +7,7 @@ import {Utils} from './utils';
 
     const parisSiteData = await getParisSiteData.initialize();
 
-    const products = [];
-
-    for (const category of parisSiteData) {
-
-        for (const subCategory of category.subCategories) {
-
-            for (const product of subCategory.products) {
-                products.push(product);
-            }
-        }
-    }
-
-    jsonDataToXml.initialize(products);
+    jsonDataToXml.initialize(parisSiteData);
 
     console.log('finish: ', Utils.getDatetime());
 

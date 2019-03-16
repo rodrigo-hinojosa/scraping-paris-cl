@@ -24,43 +24,59 @@ export class Utils {
             ('00' + d.getSeconds()).slice(-2);
     }
 
-    static writeJsonFile(data: any): void {
-
-        this.createExportFolder();
+    static writeJsonFile(data: any, dir: string, fileName: string): void {
 
         const jsonFile = JSON.stringify(data);
 
-        fs.writeFileSync(`./dist/export/${this.getTimeStamp()}-data.json`, jsonFile, 'utf-8');
+        fs.writeFileSync(`${dir.concat(fileName)}.json`, jsonFile, 'utf-8');
 
     }
 
-    static writeXmlFile(data: any): void {
+    static writeXmlFile(data: any, dir: string, fileName: string): void {
 
-        this.createExportFolder();
-
-        // const jsonFile = JSON.stringify(data);
-
-        fs.writeFileSync(`./dist/export/${this.getTimeStamp()}-data.xml`, data, 'utf-8');
+        fs.writeFileSync(`${dir.concat(fileName)}.xml`, data, 'utf-8');
 
     }
 
-    static writeCsvFile(data: any): void {
-
-        this.createExportFolder();
+    static writeCsvFile(data: any, dir: string, fileName: string): void {
 
         const csvFile = Json2csvParser.parse(data);
 
-        fs.writeFileSync(`./dist/export/${this.getTimeStamp()}-data.csv`, csvFile, 'utf-8');
+        fs.writeFileSync(`${dir.concat(fileName)}.csv`, csvFile, 'utf-8');
 
     }
 
-    private static createExportFolder() {
+    static createExportFolder(): string {
 
-        const dir = './dist/export';
+        const dirExport = './dist/export/';
 
-        if (!fs.existsSync(dir)) {
-            fs.mkdirSync(dir);
+        if (!fs.existsSync(dirExport)) {
+            fs.mkdirSync(dirExport);
         }
+
+        const processDir: string = `${dirExport.concat(this.getTimeStamp())}`;
+
+        if (!fs.existsSync(processDir)) {
+            fs.mkdirSync(processDir);
+        }
+
+        return processDir.concat('/');
+    }
+
+    static fixLastLineOfXmlFiles(dir: string): void {
+
+        // fs.readdirSync(dir, (err, files) => {
+        //     files.forEach((file) => {
+        //         fs.readFileSync('DATA', 'utf8');
+        //     });
+        // });
+        //
+        // var files = fs.readdirSync('./lib/application/models/');
+        // for (var i in files) {
+        //     var definition = require('./application/models/' + files[i]).Model;
+        //     console.log('Model Loaded: ' + files[i]);
+        // }
+
     }
 
 }

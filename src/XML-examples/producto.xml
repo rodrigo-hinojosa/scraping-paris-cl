@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <catalog xmlns="http://www.demandware.com/xml/impex/catalog/2006-10-31" catalog-id="cencosud-master-catalog">
-
     <product product-id="997050999">
         <unit>1</unit>
         <min-order-quantity>1</min-order-quantity>
@@ -31,5 +30,4 @@
             <non-discountable-flag>false</non-discountable-flag>
         </store-attributes>
     </product>
-
 </catalog>

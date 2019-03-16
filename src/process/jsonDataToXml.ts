@@ -1,17 +1,27 @@
 import * as jsonToXml from 'jsontoxml';
 
-import {Product} from '../models';
+import {Category, Product} from '../models';
 import {Utils} from '../utils';
 
 export const jsonDataToXml = {
-    initialize: (products: Array<Product>): jsonToXml => {
+    initialize: (categories: Array<Category>): void => {
 
-        const data = jsonToXml(jsonDataToXml.setJsonProducts(products), {xmlHeader: true});
+        const products = [];
 
-        Utils.writeXmlFile(data);
+        for (const category of categories) {
+
+            for (const subCategory of category.subCategories) {
+
+                for (const product of subCategory.products) {
+                    products.push(product);
+                }
+            }
+        }
+
+        jsonDataToXml.saveFiles(products);
 
     },
-    setJsonProducts: (products: Array<Product>) => {
+    setJsonProducts: (products: Array<Product>): object => {
 
         const xmlProductsList = [];
 
@@ -19,7 +29,7 @@ export const jsonDataToXml = {
             xmlProductsList.push(jsonDataToXml.setJsonProduct(product));
         }
 
-        return {catalog: xmlProductsList};
+        return {'catalog xmlns="http://www.demandware.com/xml/impex/catalog/2006-10-31" catalog-id="cencosud-master-catalog"': xmlProductsList};
 
     },
     setJsonProduct: (product: Product): object => {
@@ -69,5 +79,101 @@ export const jsonDataToXml = {
             ]
         };
 
+    },
+    setJsonInventories: (products: Array<Product>, listIdName: string): object => {
+
+        const xmlInventoryList = [];
+
+        for (const product of products) {
+            xmlInventoryList.push(jsonDataToXml.setJsonInventory(product));
+        }
+
+        return {
+            'inventory xmlns="http://www.demandware.com/xml/impex/inventory/2007-05-31"': {
+                'inventory-list': [
+                    {
+                        name: 'header', attrs: {'list-id': listIdName}, children: [
+                            {name: 'default-instock', text: 'false'},
+                            {name: 'use-bundle-inventory-only', text: 'false'},
+                            {name: 'on-order', text: 'false'}
+                        ]
+                    },
+                    {
+                        records: [xmlInventoryList]
+                    }
+                ]
+            }
+        };
+
+    },
+    setJsonInventory: (product: Product): object => {
+
+        return {
+            name: 'record',
+            attrs: {'product-id': product.sku},
+            children: [
+                {name: 'allocation', text: 100},
+                {name: 'allocation-timestamp', text: '2019-01-08T05:02:27.00Z'},
+                {name: 'perpetual', text: false},
+                {name: 'preorder-backorder-handling', text: 'none'}
+            ]
+        };
+
+    },
+    setJsonPrices: (products: Array<Product>, priceBookIdName: string, priceType: string): object => {
+
+        const xmlInventoryList = [];
+
+        for (const product of products) {
+            xmlInventoryList.push(jsonDataToXml.setJsonPrice(product, priceType));
+        }
+
+        return {
+            'pricebooks xmlns="http://www.demandware.com/xml/impex/pricebook/2006-10-31"': {
+                pricebook: [
+                    {
+                        name: 'header', attrs: {'pricebook-id': priceBookIdName}, children: [
+                            {name: 'currency', text: 'CLP'}
+                        ]
+                    },
+                    {
+                        'price-tables': [xmlInventoryList]
+                    }
+                ]
+            }
+        };
+
+    },
+    setJsonPrice: (product: Product, priceType: string): object => {
+
+        return {
+            name: 'price-table',
+            attrs: {'product-id': product.sku},
+            children: [
+                {name: 'online-from', text: '2019-02-11T06:01:00.000'},
+                {name: 'online-to', text: '2019-02-05T06:00:00.000'},
+                {name: 'mount', attrs: {quantity: 1}, text: product[priceType]}
+            ]
+        };
+
+    },
+    saveFiles: (products: Array<Product>) => {
+
+        const xmlFileConfig = {
+            xmlHeader: true
+        };
+
+        const exportDir = Utils.createExportFolder();
+
+        // Create Catalog XML file
+        Utils.writeXmlFile(jsonToXml(jsonDataToXml.setJsonProducts(products), xmlFileConfig), exportDir, 'catalog');
+
+        // Create Inventories XML file
+        Utils.writeXmlFile(jsonToXml(jsonDataToXml.setJsonInventories(products, 'Consolidated'), xmlFileConfig), exportDir, 'inventory-consolidated');
+        Utils.writeXmlFile(jsonToXml(jsonDataToXml.setJsonInventories(products, 'Paris.cl'), xmlFileConfig), exportDir, 'inventory-paris-cl');
+
+        // Create Prices XML file
+        Utils.writeXmlFile(jsonToXml(jsonDataToXml.setJsonPrices(products, 'clp-internet-prices', 'internetPrice'), xmlFileConfig), exportDir, 'internet-prices');
+        Utils.writeXmlFile(jsonToXml(jsonDataToXml.setJsonPrices(products, 'clp-list-prices', 'normalPrice'), xmlFileConfig), exportDir, 'list-prices');
     }
 };

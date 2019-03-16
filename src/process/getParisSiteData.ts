@@ -11,6 +11,7 @@ const BASE_URL: string = 'https://www.paris.cl';
 export const getParisSiteData = {
 
     initialize: async (): Promise<Array<Category>> => {
+
         return await getParisSiteData.getCategories(categoryList);
 
         // Utils.writeJsonFile(scrapingData);
@@ -36,6 +37,8 @@ export const getParisSiteData = {
                     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36'
                 },
                 uri: subCategory.url,
+            }).catch(err => {
+                console.log(err);
             });
 
             const $PLP = cheerio.load(PLPResponse);
@@ -50,7 +53,7 @@ export const getParisSiteData = {
 
             });
 
-            subCategory.products = await getParisSiteData.getProducts(productsHref);
+            subCategory.products = await getParisSiteData.getProducts(productsHref, subCategory.name);
 
             $PLP('div.col-md-6.col-sm-12.border-right.center.pages.pages-top.d-md-none > div > a').each((index, page) => {
 
@@ -65,7 +68,7 @@ export const getParisSiteData = {
         return subCategories;
 
     },
-    getProducts: async (productsHref: Array<string>): Promise<Array<Product>> => {
+    getProducts: async (productsHref: Array<string>, subCategoryName: string): Promise<Array<Product>> => {
 
         const products: Array<Product> = [];
 
@@ -81,7 +84,11 @@ export const getParisSiteData = {
                     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36'
                 },
                 uri: url
+            }).catch(err => {
+                console.log(err);
             });
+
+            console.log(subCategoryName + ' : ', url);
 
             const $PDP = cheerio.load(PDPResponse);
 
